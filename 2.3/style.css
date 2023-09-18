@@ -1,0 +1,18 @@
+#destinations{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1200px;
+    width: 1450px;
+    font-size: 13.5px;
+}
+
+.country-bold{
+    font-weight: bold;
+    color: red;
+}
+
+.country-bold2{
+    color: green;
+    font-weight: bold;
+}
