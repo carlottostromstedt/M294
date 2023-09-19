@@ -1,0 +1,23 @@
+.anim-2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: background-color 2s, color 2s, font-size 2s, transform 2s, width 2s, height 3s;
+}
+
+.anim-trans{
+    width: 800px;
+    height: 500px;
+    background-color: blueviolet;
+    color:goldenrod;
+    font-size: 250px;
+}
+
+.fade-element {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+.fade {
+opacity: 0;
+}

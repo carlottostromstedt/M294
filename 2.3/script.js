@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function(){
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    function chooseCountry(){
+    async function chooseCountry(){
+        removeClass();
         removeClass2();
         let min = 0;
         let max = 193;
@@ -17,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function(){
         for(i = 0; i < randomNumber; i++){
             console.log(i)
             let childNode = destinations.children[i];
-            sleep(1000)
+            await sleep(10)
             childNode.classList.add("country-bold");
-            setTimeout(removeClass, 1000);
+            await sleep(10)
         }
         let childNode = destinations.children[randomNumber];
         sleep(1000)

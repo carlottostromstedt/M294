@@ -1,0 +1,19 @@
+#playground{
+    display: grid;
+    width: 62rem;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    margin-bottom: 5rem;
+}
+
+#playground div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-back{
+    height: 135px;
+    width: 135px;
+}

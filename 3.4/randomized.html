@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tree.css">
+    <script src="tree.js"></script>
+    <script src="script.js"></script>
+    <title>Spoofify</title>
+</head>
+<body>
+    <sidebar class="my-sidebar">
+        <div class="logo-tree">
+            <h1>
+                <a class="logo-link" href="index.html">Spoofify</a>
+            </h1>
+            <ul id="myUL">
+                <li><span class="caret">Tools</span>
+                <ul class="nested">
+                    <li>
+                        <a href="randomized.html">Randomized album covers</a>
+                    </li>
+                    <li><span class="caret">Top lists</span>
+                    <ul class="nested">
+                        <li>
+                            <a href="birthweek.html">Top list from my birthweek</a>
+                        </li>
+                        <li>
+                            <a href="thisweek.html">Top list from this Week</a>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <p class="sidebar-footer">
+            © 2023 Spooky Example Inc.
+        </p>
+    </sidebar>
+    <div class="main-content">
+        <div class="main-part">
+            <div class="latest-releases">
+                <div class="title-buttons">
+                    <h2 class="latest-title">Latest releases randomized</h2>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=1" height=200/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=2" height=200/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=3" height=200/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=4" height=200/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=5" height=200/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://loremflickr.com/480/480/cd,album,cover?random=6" height=200/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
